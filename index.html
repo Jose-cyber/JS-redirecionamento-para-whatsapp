@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>whatsapp | redirect</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet'  href='main.css'>
+
+</head>
+<body>
+    <script>
+      
+      function link()
+    
+    {
+    if (screen.width<1024)
+        window.location.href = "https://api.whatsapp.com/send?phone=5512991708065&text=texto" ;
+      else
+          window.open("https://web.whatsapp.com/send?phone=5512991708065");
+    }
+    </script> 
+
+    <a onclick="link()" ><img src="img/whatsapp.png" class="whatsbutton" data-selector="img"></a>
+
+    
+</body>
+</html>
