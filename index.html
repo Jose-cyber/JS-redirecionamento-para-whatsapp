@@ -3,7 +3,9 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>whatsapp | redirect</title>
+    <title>Whatsapp | redirect</title>
+    <meta name="description" content="Projeto usando javascript na qual indentifica o tamanho do display para á partir do tamanho do dispay redirecionar a pessoa usando o link correto do whatsapp.">
+    <meta name="author" content="Jose-cyber">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet'  href='main.css'>
 
@@ -11,17 +13,16 @@
 <body>
     <script>
       
-      function link()
-    
+    function link()
     {
     if (screen.width<1024)
-        window.location.href = "https://api.whatsapp.com/send?phone=5512991708065&text=texto" ;
+        window.location.href = "https://api.whatsapp.com/send?phone=5512991708065&text=Olá" ;
       else
-          window.open("https://web.whatsapp.com/send?phone=5512991708065");
+          window.open("https://web.whatsapp.com/send?phone=5512991708065&text=Olá");
     }
     </script> 
 
-    <a onclick="link()" ><img src="img/whatsapp.png" class="whatsbutton" data-selector="img"></a>
+    <a onclick="link()" ><img src="img/Whatsapp.png" class="whatsbutton" data-selector="img"></a>
 
     
 </body>
